@@ -1,0 +1,109 @@
+aside {
+    background: @linkColor;
+    border-top: 5px solid @lightBlue;
+    clear: both;
+    display: block;
+    float: left;
+    margin-bottom: -5px;
+    width: 100%;
+    &:before {
+        background: url('../images/mandala.png') center top no-repeat;// PNG Fallback
+        //background: url('data:image/svg+xml;base64, @{mandala}') center top no-repeat; // SVG Data URI
+        content: '';
+        height: 921px;
+        left: 50%;
+        margin-left: -461.5px;
+        position: fixed;
+        top: 60px;
+        width: 923px;
+        opacity: 50%;
+    }
+    &:after {
+        background: url('../images/krillin_with_cap.png') center top no-repeat; // PNG Fallback
+        //background: url('data:image/svg+xml;base64, @{robot}') center top no-repeat; // SVG Data URI
+        background-size: 400px;
+        content: '';
+        height: 949px;
+        left: 50%;
+        margin-left: -300px;
+        position: fixed;
+        top: 130px;
+        width: 100%;
+        max-width: 400px;
+        z-index: 1;
+    }
+    .wrapper {
+        background: @linkColor;
+        border-top: 5px solid @lightBlue;
+        margin: -5px auto 0;
+        max-width: 1040px;
+        padding: 40px 0 30px 0;
+        position: relative;
+        width: 100%;
+        z-index: 2;
+        &:after { // Clearfix
+            clear: both;
+            content: " ";
+            display: block;
+            font-size: 0;
+            height: 0;
+            line-height: 0;
+            visibility: hidden;
+            width: 0;
+        }
+        h3 {
+            color: @darkBlue;
+            font-size: 24px;
+            margin-top: 0;
+        }
+        a {
+            color: @lightBlue;
+            &.designer-name {color: @darkBlue;}
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                margin-bottom: 12px;
+                &:last-child {margin-bottom: 0;}
+            }
+        }
+        .design-selection {
+            border-right: 2px solid @lightBlue;
+            float: left;
+            margin-right: 40px;
+            width: 50%;
+            .design-name {display: block;}
+        }
+        .zen-resources {margin-top: 40px;}
+    }
+}
+
+.supporting footer {
+    width: 100%;
+}
+
+footer {
+	  z-index: 4;
+	position: relative;
+    background: @darkBlue;
+    font-size: 22px;
+    height: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    div{
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        p{
+            color: @lightGreen;
+        }
+        a {
+            color: @lightBlue;
+        }
+        
+    }
+    
+}

@@ -1,0 +1,36 @@
+.spin {
+  from {.rotate(0deg);}
+  to {.rotate(360deg);}
+}
+
+.rise {
+  from {top: 100%;}
+  to {top: 130px;}
+}
+
+.rise-short {
+  from {top: 100%;}
+  to {top: 100px;}
+}
+
+.rise-baby {
+  from {top: 100%;}
+  to {top: 50px;}
+}
+
+@keyframes spin {.spin;}
+
+@keyframes rise {.rise;}
+
+@keyframes rise-short {.rise-short;}
+
+@keyframes rise-baby {.rise-baby;}
+
+aside {
+  &:before{
+    .animation(spin, 20s, infinite, linear);
+  }
+  &:after {
+    .animation(rise, 2s, 1);
+  }
+}

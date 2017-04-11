@@ -1,0 +1,102 @@
+.intro {
+  .gradient(white, @lightGreen);
+  height: 590px;
+}
+
+.basics{
+	z-index: 3;
+	width: 100%;
+	position: relative;
+	background-color: fadeout(white, 10%);
+	border-top: 5px solid @brown;
+	border-bottom: 5px solid @lightBlue;
+}
+
+.column {
+	margin: auto;
+	column-count: 2;
+	column-width: 485px;
+	column-gap: 70px;
+	max-width: 1040px;
+	
+	padding-left: 30px;
+	padding-right: 30px;
+	
+		p {
+		display:inline-block;
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+	
+	.image {
+		display:inline-block;
+		height: 400px;
+		width: 100%;
+		min-width: 1px;
+		margin: 16px;
+	}
+}
+
+.preamble, .explanation{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.greenbg{
+	background: @lightGreen;
+    border-top: 5px solid @blue;
+	border-bottom: 5px solid @blue;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.participation, .benefits {
+		padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+.supporting {
+	  z-index: 3;
+	background-color: fadeout(white, 10%);
+  position: relative;
+}
+
+.participation {
+	.image {
+	  background: url(../images/samurai_champloo_with_cap_round_800.png) center no-repeat; // PNG Fallback
+				background-size: contain;
+	}
+}
+
+	.line {
+		border: 1px solid @brown;
+		margin: auto;
+		width: 220px;
+		height: 0px;
+	}
+
+.benefits {
+	.image {
+		background: url(../images/bitcoinLogo1000_uasf.png) center no-repeat;
+				background-size: contain;
+	}
+}
+
+
+.downloads {
+	overflow-wrap: break-word;
+	padding-bottom: 30px;
+	h3 {
+text-align: center;
+	}
+}
+
+.shasums {
+	overflow: auto;
+	background-color: fadeout(green, 90%);
+}

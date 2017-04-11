@@ -1,0 +1,18 @@
+.animation (@name, @duration, @duration-count: infinite, @timing-function: ease) {
+  -webkit-animation: @name @duration @duration-count @timing-function;
+  -moz-animation: @name @duration @duration-count @timing-function;
+  -ms-animation: @name @duration @duration-count @timing-function;
+  -o-animation: @name @duration @duration-count @timing-function;
+}
+
+.background-size (@value) {
+  background-size: @value;
+}
+
+.gradient (@startColor, @endColor) {
+  background: linear-gradient(to bottom, @startColor 0%,@endColor 100%); // W3C
+}
+
+.rotate(@deg) {
+  transform: rotate(@deg);
+}

@@ -1,0 +1,51 @@
+@import url('http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400italic,400');
+@import url('../res/95b765fd-fae4-4f1b-8155-d8244914a5c6.css');
+
+body {
+  color: @textColor2;
+  font-family: @openSans;
+  font-size: 16px;
+  line-height: 1.25em;
+}
+
+h1 {
+  font-family: @adelle;
+  font-size: 91px;
+  font-weight: 500;
+}
+
+h2 {
+  color: @brown;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h3 {
+  color: @brown;
+  font-family: @adelle;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.25em;
+  margin: 0.5em 0;
+  &+ p {margin-top: 0;}
+}
+
+a {
+  color: @linkColor;
+  text-decoration: none;
+}
+
+abbr[title] {
+  border: none;
+}
+
+.preamble, .supporting div, .downloads {
+  abbr {
+    border-bottom: 1px dotted @green;
+    &:hover:after {
+      content: ' ('attr(title)')';
+      text-shadow: 0 0 1em @brown;
+    }
+  }
+}

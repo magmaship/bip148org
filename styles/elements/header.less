@@ -1,0 +1,52 @@
+header {
+  margin: 0 auto;
+  max-width: 1040px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  h1 {
+    border-top: 4px solid white;
+    color: @darkGreen;
+    display: inline-block;
+    min-height: 80px;
+    margin: 55px auto 0;
+    padding: 0 10px;
+    z-index: 2;
+    &:after {
+      background-color: @brown;
+      content: '';
+      height: 2px;
+      left: 0;
+      margin-top: -3px;
+      position: absolute;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+  h2 {
+	  position: relative;
+    margin: auto;
+	  margin-left: 30%;
+	  z-index: 2;
+	  	background-color: fadeout(white, 10%);
+  }
+}
+
+.summary {
+  position: relative;
+	width: 80%;
+  max-width: 300px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: 10%;
+  z-index: 2;
+	background-color: fadeout(white, 10%);
+  p {
+	  
+    color: @darkGreen;
+    font-style: italic;
+  }
+}
