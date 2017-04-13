@@ -1,2 +1,5 @@
 *.DS_Store
 
+# generate with pagegen/ ... see README.md
+goto_*.html
+
