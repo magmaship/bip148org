@@ -1,0 +1,51 @@
+
+.minipage {
+padding: 20pt;
+}
+
+div {
+margin: 1em;
+padding: 1em;
+}
+
+div.level2 {
+padding: 5pt;
+background: #e0ff10;
+}
+
+div.level3 {
+padding: 5pt;
+background: #ffd810;
+}
+
+a { color: #2babe1; }
+
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+text-decoration: underline;
+}
+
+
+h1 {
+  color: brown;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.25em;
+  margin: 0.5em 0;
+}
+
+.dis { 
+color: #505050;
+}
+
