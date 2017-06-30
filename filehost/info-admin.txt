@@ -1,0 +1,6 @@
+For webadmin/hosting:
+here you should put (symbolic link) the directory with mirrored (and confirmed!) binaries.
+
+ln -s /var/checked-mrror/ mirror/
+
+
