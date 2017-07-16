@@ -75,19 +75,46 @@
 
 		<div class="downloads" id="zen-downloads">
 			<h3>Download Bitcoin BIP148 UASF SegWit</h3>
-			<div class= "column">
-			<p>We build this downloadable programs ourselves (in Gitian).</p>
-			<p>Before placing it on this SSL secure page - first we always do check it's <b>identical executable program</b> (each byte) as other teams in community produce,
-			so we know it matches <b>source code</b> and that our build computer is producing secure valid program for you.</p>
+			<div class="download-panel"> <!-- download-panel -->
 
-			<div>
-			<div class="downloadgreen">
-<a href="filehost/mirror/">Direct download of Bitcoin BIP148 (over SSL, from this webpage)</a>
-			</div>
-			<span>&nbsp;- click here.</span>
-			</div>
-<p>Extra security: If you can, download also from second source like <a href="./goto_uasfco.html">http://uasf.co/</a> and verify that this are <b>identical files</b> (checksum, or with any such tool).
-			</div>
+				<p>
+				This is the <b>official</b> <a href="https://bitcoin.org/">Bitcoin</a> client, but <b>with addition called BIP148/SegWit/UASF</b> that 
+				will compel Bitcoin Miners (by ignoring other blocks)
+				to switch on the <b>SegWit</b>
+				and thus allow <b>fast</b> and <b>low-fees transactions</b> Bitcoin,
+				<b>while still making it easy to run a node</b> (by choosing reasonable size of blockchain).
+				</p>
+
+
+				<div> <!-- download link -->
+					<div class="downloadgreen">
+						<a href="filehost/mirror/">Direct download of Bitcoin BIP148 (over SSL, from this webpage)</a>
+						</div>
+						<span>&nbsp;- click here and select platform: use <b>-win64</b> for <b>Windows</b>.</span>
+					</div>
+		<p>Extra security of downloads: If you can, then download also from second source like <a href="./goto_uasfco.html">http://uasf.co/</a> and verify that this are <b>identical files</b> (checksum, or with any such tool) before starting the installer.
+			</div> <!-- download link -->
+
+				<p>We build this downloadable programs ourselves (<b>in Gitian</b>).</p>
+				<p>Before placing it on this SSL secure page - first we always do check it's <b>identical executable program</b> (each byte) as other teams in community produce,
+				so we know it matches <b>source code</b> and that our build computer is producing secure valid program for you.</p>
+
+
+
+			<div class="downloads-pgp">
+				<h3>PGP keys to verify security of downloads</h3>
+				<p>Since this https://bip148.org is an secure <b>SSL HTTPS</b> website, this step is NOT so very important... but still a good idea.
+				<p>It is more important though to confirm that other teams (e.g. UASF.co) released identical binary files.</p>
+
+				<ul>
+					<li><a href="data/bincap_at_magmaship.com.asc">bincap pubkey</a> (signing <a href="https://github.com/magmaship/bip148org">this web page on github</a>, and the binary builds here)</li>
+					<li><a href="data/cmp2bldx_at_magmaship_com.asc">cmp2bldx pubkey</a> (signs binary builds here)</li>
+					<li>For better security, also verify the same builds with other external sources from Internet</li>
+				</ul>
+			</div><!-- downloads-pgp -->
+
+
+
 		</div> <!-- downloads -->
 
 
