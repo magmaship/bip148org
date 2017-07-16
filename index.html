@@ -17,7 +17,10 @@
 -->
 
 <body id="css-zen-garden">
+
 <div class="page-wrapper">
+
+
 	<section class="intro" id="zen-intro">
 		<header role="banner">
 			<h1>Xiong's Workshop</h1>
@@ -27,7 +30,8 @@
 			<p>User Activated Soft Forks allow the economic majorty of users to specify new behaviors that the miners must then enforce.</p>
 			<p>You may wish to read the formal specification for <a href="https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki" title="BIP 148: Mandatory activation of segwit deployment." target="new">BIP 148</a>, and <a href="https://bitcoinmagazine.com/articles/bitcoin-reaches-a-crossroads-with-the-scaling-debate-not-a-crisis-1462980183/" title="Bitcoin Reaches a Crossroads With the Scaling Debate, Not a Crisis | Bitcoin Magazine" target="new">here</a> for more conext on why many are planning to enforce the activation of SegWit.</p>
 		</div>
-	</section>
+	</section><!-- intro -->
+		
 	<section class="content" id="zen-content">
 		<div class="basics">
 			<div class="column">
@@ -50,6 +54,7 @@
 </div>
 
 <div><br/></div>
+
 					<h3>The Road to the Segregated Witness</h3>
 					<p>Littering a dark and dreary road lay the past relics of <abbr title="Pay To Key Hash">P2KH</abbr>, 160bit hashes,
 						no script versioning,
@@ -64,6 +69,9 @@
 				</div>
 			</div>
 		</div>
+		
+		
+		
 		<div class="main supporting" id="zen-supporting" role="main">
 			<div class="greenbg">
 				<div class="participation column" id="zen-participation">
@@ -97,14 +105,9 @@
 				</div>
 			</div>
 
-			<div class="downloads" id="zen-downloads">
-				<h3>Downloads - THE OLDER VERSION</h3>
+
+				<h3>Downloads</h3>
 				<div class= "column">
-					<p>Information</p>
-					<p>About How to Download</p>
-					<p>And Verify</p>
-					<p>BIP 148 Binaries</p>
-					<div> (Will be ready soon) </div>
 					<div>
 						<h3>PGP keys to verify security of downloads</h3>
 						<ul>
@@ -116,71 +119,17 @@
 
 						</ul>
 					</div>
-					<div>
-						<h3>Unstable build - preview for developers</h3>
-						<h4>UNSTABLE bitcoin-KNOTS-BIP148-54893dab [released here on 2017-04-10 ~20:00 UTC]</h4>
-						<p>This is <b class="unstable">unstable preview</b> of UASF / draft of BIP148 Bitcoin, added to <b>Bitcoin Knots</b>.</p>
-						<p>Please do not use in production!</p>
-						<p>If you are a <b>tester</b> then try this, but then <b class="unstable">you MUST update in few days</b> when more official version will be released here.</p>
-						<p>To clarify, this adds the DRAFT of BIP148 not to Bitcoin Core, but to <b><a href="https://bitcoinknots.org/">Bitcoin Knots</a></b> (set of addons to the wallet). Likely we will here provide also version of Bitcoin Core plus BIP148, soon.</p>
-						<div> Source code <em class="gitrevision"><a href="https://github.com/magmaship/bitcoin/commit/54893dab819ae50ab015aa3fcd54054f8c51a4db">54893dab819ae50ab015aa3fcd54054f8c51a4db</a></em> results in following binaries:
-							(verify this information with at least few of known Bitcoin developers/supporters you trust,
-							before considering runnig this code;
-							and remember this is <b class="unstable">unstable preview</b> version)
-							<div class="dload">
-								<div> Download: <a href="download/bitcoin_knots_bip148_54893dab_UNSTABLE-password-needed.7z.torrent">the <b class="unstable">UNSTABLE VERSION</b> of <span class="patchset">draft of BIP148</span>+<b class="patchset">Knots</b> patched Bitcoin client, <b class="unstable">only for testers</b> - click here</a><sup>(*)</sup>.
-									<div> <sup>(*)</sup> testing bittorent as distribution platform ,contact us in case of problems. </div>
-								</div>
-								<div> The password to unpack this file, is:
-									<div class="password">i_know_this_is_unstable_test_version_i_am_a_tester</div>
-									And last time: <b>please remember to always ALWAYS</b> check binary checksums with many trusted people before using,
-									and to <b>check back here for updates</b>!! </div>
-							</div>
-							<pre class="shasums">
-SHA256:
-00856236e3de42ea73fd9a8b9b8ace756847147242e7412995700085f1981b2d  bitcoin-0.14.0-win64.zip
-1d362639c0c8e6eb463c16e390253fd644b1d707318ebee52fef71007d6f74af  bitcoin-0.14.0-win32.zip
-2898430615896d0091ec8fe1560fc5c846be48b762a31bc37b6bce9b2f178b45  bitcoin-0.14.0-win32-debug.zip
-313ad015e2c1589bcbc4e7d376453c2142d008ab334f31fa8f588bdd8f89e4d2  bitcoin-0.14.0-arm-linux-gnueabihf-debug.tar.gz
-34f4ed38eea691ab3546956d4c2ad3df46e85d73ac2f48b79c7bfed2ed14a4a1  bitcoin-0.14.0-i686-pc-linux-gnu-debug.tar.gz
-3854ae8affdb142fc42aa1edfcaa54325d69403909241dd0813e2399cb75e993  bitcoin-0.14.0-x86_64-linux-gnu-debug.tar.gz
-43c9e0d32eb1a6c2b40e6d972dc14ab79d2c3d233f5e854f363e025d34e25a5b  bitcoin-0.14.0-x86_64-linux-gnu.tar.gz
-458baa1140d9acefc8c7048ee36ed86e07b7cfc421c1b391c323f81c3b619f72  bitcoin-0.14.0-aarch64-linux-gnu.tar.gz
-62185f9720ee9bd63c0c3cbc3d03243628f92080b0450fe03fcd5dcedf29a70b  bitcoin-0.14.0-aarch64-linux-gnu-debug.tar.gz
-68c3d91061039fd663cca6e0d0bd8ad48e29dcb52bbf8fa1f96b71d4949d4031  bitcoin-0.14.0-osx-unsigned.dmg
-71e0996ef30e249a8eba37669154dbce13cc9a63ec78504d3198ea8c83580f3a  bitcoin-0.14.0-win32-setup-unsigned.exe
-a753419929562bb57545b6f0fe1e3a6897541653516fa4b7081375fbef97e262  bitcoin-0.14.0-win64-setup-unsigned.exe
-b0e00d0fb675792ada4e20caa0bf1ff50254e5c704582cbc7382e17cede69e48  bitcoin-0.14.0-i686-pc-linux-gnu.tar.gz
-c28ae75a67e176d6659a4a13fb12eaa3592eb8a9d47d3bb971cd257a0ed1d1e1  bitcoin-0.14.0-win64-debug.zip
-ce0f6d7717d6b675568218d3c29c28fbfff79ce6a67927edb9b211c248bf8baf  bitcoin-0.14.0.tar.gz
-ef85fbdc331ff333e1bebd5e2c5d990b7231f9575fb106dc8b61b60f977575e4  bitcoin-0.14.0-arm-linux-gnueabihf.tar.gz
-fb70511298cf5087f54abefb6c60ddd4fb501f7a00d46a9c528313d4410f9d86  bitcoin-0.14.0-osx64.tar.gz
+					
+					
+					
 
-SHA512:
-095d669cff8b95310b015ab154743a9005d1a8f3c375cf065cde6927c521ce69b14cbfb145dad7614652681f0f99d2e7c36e8b2922df9433f44b1ffc8c7b3810  bitcoin-0.14.0-arm-linux-gnueabihf.tar.gz
-0f77d1af53c512b17785c20a0084b96e97aced13bd5c8dc1183090af3b496978b7a206cdbcb4713d5201782370dcda23f973e8626d25d2bd4e1ff73a7673a54e  bitcoin-0.14.0-x86_64-linux-gnu.tar.gz
-1a70acede65924dacde57ca3b4b91bb8f55d3fce578855f6b2eda8c0075bb559260d039693ade91e35b6e523c49da331ccc6cc306d4bc3af93e82e6638443c2a  bitcoin-0.14.0-win64-setup-unsigned.exe
-1da99ac8ff0bedbddc3abc3bb46267c533975863555452f5b1c4b19a6bd99a7fcb852610dd9ebf6ab90d7f3d9535a44e48574d7ca1dfb6f3a09d5fbed90291d7  bitcoin-0.14.0-x86_64-linux-gnu-debug.tar.gz
-1eff9f6e8f1bfc67a819edbf19e0484cb97ba4959df9c26e06560cb8600af8f84d94d22eafcbd3e32e51389a9f28b5f3fcec60debe03097fd088474b96ac29d4  bitcoin-0.14.0-osx-unsigned.dmg
-79eeaaecf9bc0ddad75f2dcee278e71410c5eaf5023a5765388ed5191faade5e73888b0bb4283eec2389ea2340dfa1b2c5538cae6bd13805a716034ef2eba861  bitcoin-0.14.0-arm-linux-gnueabihf-debug.tar.gz
-8b0a20b0775563246d42487af4a7937830c8442619cd8feef5f9f573b496395296a2f185ab3c9e173794878dfa8937717f577a9f86aad471fb6a72dece2a6f4d  bitcoin-0.14.0.tar.gz
-a02fb069018293eecc52d0abc2b2eadfaedcce0a2df628996ee877c3c5752ced68053a315c1d39ca727647130081664196cc084e59b94d98a8bb5cd79dd7bd26  bitcoin-0.14.0-aarch64-linux-gnu.tar.gz
-b409caaf3a803c23d659ffcfd96da24fc3b2191a30d31efd2e1ac82ebfc6523f826ac1c4aa911d085fdc3790a3184df8f16a2902c7b5850d3f7d2b78816751e4  bitcoin-0.14.0-win32-setup-unsigned.exe
-bb280b2192120b032e3d30f942c3a858f237c9ce5a0be6b1b4717c8c6a3f42b92d3376ff5d974ee727aa31733476b8041cb1aeaa988753da017d1e32d7e2f211  bitcoin-0.14.0-win64.zip
-c73351f2fdddf9cfdd8239fed0d049f1b4968e60ca23c5da2c7b9f2ddaba7d02f183abec079b068390adc67bb388310861fa0a40909ac02dbfc7a4728658e775  bitcoin-0.14.0-win64-debug.zip
-c787e597fa622a6e4232183232935fae5029d972c2053f045a64b160c60eed93b1cb6180786df90e0c33089519af3b26ccf607dd1a5a08922053b23d220f15a9  bitcoin-0.14.0-osx64.tar.gz
-d2bdf53e4dcb94db931f5d54ae651ffcd37ece105802c2f72e57e4ec94c50e1d28df982546354f1277064a9ed65e1ee67b6f51ee18e7dc88aec1895c3cd3cca7  bitcoin-0.14.0-aarch64-linux-gnu-debug.tar.gz
-d84cea5b76352c44e301f01efc454b6b4017566ca48ee486780d20ab09819c430af8808cfe8c7cefd9ad2f4b2942d930b0ed6627d409e8391f3764b4f57569a5  bitcoin-0.14.0-i686-pc-linux-gnu-debug.tar.gz
-f6258e70c77d9c3ec624d846d943fb428abd4f4e294313483630600a57fb18aafc086523939ee356d27d6fab1da63514b5badbb8849f24a7827f37caff8324de  bitcoin-0.14.0-win32-debug.zip
-f78c02e9f426bc06bec3ae37945af017bacf1d295e37c8a73bbe8e06fa2b5908addaab4d0d35b160bfecdc4648c7fa3516d186dc25bede00cb5bd8d87321148b  bitcoin-0.14.0-i686-pc-linux-gnu.tar.gz
-fcfae48f44397834e4702c8b963d80d3de2fb78c3a37f2f0bbd25ae096ff11bad9f4083bf9375d6e16a7f6328372303634c008f069e956eec6b6a09ee2adce20  bitcoin-0.14.0-win32.zip
-</pre>
-						</div>
+					
 					</div>
-				</div>
 			</div>
 		</div>
 	</section>
+	
+	
 	<footer>
 		<div>
 			<p><a href="https://github.com/magmaship/bip148org" title="Propose changes to this site on Github" class="zen-validate-html">Edit this page on github</a></p>
@@ -200,6 +149,8 @@ fcfae48f44397834e4702c8b963d80d3de2fb78c3a37f2f0bbd25ae096ff11bad9f4083bf9375d6e
 			<div class="design-selection" id="design-selection"> </div>
 		</div>
 	</aside>
+
 </div>
+
 </body>
 </html>
