@@ -664,8 +664,12 @@ footer div a {
 }
 
 .downloadgreen {
-background-color:#44f511;
+background-color:#22f511;
 padding: 1px 5px;
 display: inline;
 }
+
+.downloadgreen a { color: #fff; font-weight: bold; }
+.downloadgreen a:active { color: #ffc;  }
+.downloadgreen a:hover { color: #ffc; text-decoration: underline white; }
 
