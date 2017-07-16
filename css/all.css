@@ -373,9 +373,9 @@ header h2 {
 }
 .column {
   margin: auto;
-  column-count: 2;
+  column-count: 1;
   column-width: 485px;
-  column-gap: 70px;
+  column-gap: 20px;
   max-width: 1040px;
   padding-left: 30px;
   padding-right: 30px;
