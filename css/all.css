@@ -662,3 +662,10 @@ footer div a {
     height: 200px;
   }
 }
+
+.downloadgreen {
+background-color:#44f511;
+padding: 1px 5px;
+display: inline;
+}
+
