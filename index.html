@@ -78,7 +78,7 @@
 			<div class="download-panel"> <!-- download-panel -->
 
 				<div class="version-news">
-				Version 0.14.2 UASF 1.0 - released here! (Gitian build done, files are here).
+				News: Version <b>0.14.2 UASF 1.0</b> - released here! (Gitian build done by us too, files ready).
 				</div>
 
 				<p>
@@ -96,7 +96,24 @@
 						</div>
 						<span>&nbsp;- click here and select platform: use <b>-win64</b> for <b>Windows</b>.</span>
 					</div>
-		<p>Extra security of downloads: If you can, then download also from second source like <a href="./goto_uasfco.html">http://uasf.co/</a> and verify that this are <b>identical files</b> (checksum, or with any such tool) before starting the installer.
+
+		<div class="verify">
+		<p>1) After download you could check if sha256 of the file is on the list here
+		<a href="filehost-add/bitcoin-0.14.2.sums.sha256.asc">sums.sha256 (signed)</a>
+		and is that list PGP-signed by us.
+		</p>
+
+		<p>2)
+		Other <b>independent team</b>
+		(<a href="./goto_uasfco.html">http://uasf.co/</a>) releases similar list on github.com, you can check:
+		<a href="./goto_uasfco_signs_current_windows.html">Windows</a>,
+		<a href="./goto_uasfco_signs_current_linux.html">Linux</a>,
+		<a href="./goto_uasfco_signs_current_mac.html">Mac</a>
+		(click there trusted author <b>luke-jr</b>, <b>laanwj</b>
+		then look at .assert file and see on top - same checksum as we publish).
+		</p>
+		</div>
+
 			</div> <!-- download link -->
 
 				<p>We build this downloadable programs ourselves (<b>in Gitian</b>).</p>

@@ -15,5 +15,9 @@ template_execute_level2 'twitter_bip148' 'https://twitter.com/bip148'
 template_execute_level2 'twitter_cmp2bldx' 'https://twitter.com/cmp2bldx'
 
 template_execute_level3 'uasfco' 'http://www.uasf.co/'
+template_execute_level3 'uasfco_signs_current_windows' 'https://github.com/UASF/gitian.sigs/tree/master/0.14.2-uasfsegwit1.0-win-unsigned'
+template_execute_level3 'uasfco_signs_current_linux' 'https://github.com/UASF/gitian.sigs/tree/master/0.14.2-uasfsegwit1.0-linux'
+template_execute_level3 'uasfco_signs_current_mac' 'https://github.com/UASF/gitian.sigs/tree/master/0.14.2-uasfsegwit1.0-osx-unsigned'
+
 template_execute_level3 'freenodeirc' 'https://webchat.freenode.net/?channels=#bip148,##uasf'
 
