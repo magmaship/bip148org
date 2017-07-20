@@ -530,6 +530,12 @@ aside .wrapper .zen-resources {
 .supporting footer {
   width: 100%;
 }
+.footer2 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  justify-content: center;
+  text-align :center;
+}
 footer {
   z-index: 4;
   position: relative;
@@ -541,6 +547,8 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+  color: #ffffff;
 }
 footer div {
   padding-left: 0.5em;
@@ -550,7 +558,7 @@ footer div p {
   color: #e6faf0;
 }
 footer div a {
-  color: #edf6ff;
+  color: #c3cfff;
 }
 @media (max-width: 1100px) {
   .intro {
